@@ -16,19 +16,17 @@ import javafx.stage.Stage;
  * @author Shohan
  */
 public class WebBrowserFX extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        Image image= new Image (getClass().getResourceAsStream("s&r.png"));
-        
+        Image image = new Image(getClass().getResourceAsStream("s&r.png"));
+
         Scene scene = new Scene(root);
         stage.getIcons().add(image);
-        stage.setTitle(" S&R Browser");
-        
-        
+        stage.setTitle(" S&R Browser By Ronol");
+
         stage.setScene(scene);
-        
 
         stage.show();
     }
@@ -39,5 +37,5 @@ public class WebBrowserFX extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }
