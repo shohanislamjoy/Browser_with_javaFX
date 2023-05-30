@@ -21,6 +21,7 @@ This JavaFX Browser project is a beginner-level application that allows you to b
 5. Use the provided navigation buttons to navigate backward and forward, reload the page, and adjust the zoom level.
 
 ## Demo
+Installer: https://drive.google.com/file/d/1VSyYheNAMifkat4REkBwru7X8dEGFpGH/view?usp=sharing
 
 
 
